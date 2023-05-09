@@ -1,0 +1,78 @@
+header {
+	background-color: #1c2331;
+	padding: 20px;
+}
+
+.profile {
+	display: flex;
+	align-items: center;
+}
+
+.profile img {
+
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+.profile h1 {
+	color: #fff;
+	font-size: 24px;
+	margin: 0;
+
+}
+
+.intro {
+	max-width: 800px;
+	margin: 1000 auto;
+	padding: 20px;
+}
+
+.intro h2 {
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+
+.intro p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+#hobby ul li {
+	display : inline-block;
+	list-style-type : none;
+	padding : 0px 15px;
+}
+#menubar {
+	background : white;
+}
+#menubar ul{ 
+margin : 0;
+padding : 0;
+width : 567px;
+}
+#menubar ul li {
+	display : inline-block;
+	list-style-type : none;
+	padding : 0px 15px;
+}
+
+#menubar ul li a {
+	color : black;
+	text-decoration : none;
+}
+#menubar ul li a:hover{
+	color : olive;
+}
+
+.logo-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color:#fff;
+    height: 100px;
+}
+.logo {
+    width: 40px;
+    height: 40px;
